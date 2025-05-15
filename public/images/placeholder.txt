@@ -1,0 +1,11 @@
+This file is just a placeholder to ensure the /public/images directory exists.
+
+In a production environment, you would upload the following images:
+- hero-bg.jpg (a roman legion reenactment image)
+- news-1.jpg, news-2.jpg, news-3.jpg (news thumbnails)
+- about-image.jpg (roman soldiers image)
+- membership-benefits.jpg (members at an event)
+- gallery-1.jpg through gallery-12.jpg (gallery images)
+- services-reenactment.jpg, services-training.jpg, services-research.jpg, services-education.jpg, services-events.jpg (service category images)
+
+For testing and development, please replace these placeholder references with actual images or use external image URLs.
