@@ -1,8 +1,9 @@
 import { Metadata } from 'next';
 import ClientArticlePage from './client-page';
+import { Article } from './client-page';
 
 // Historical articles data
-const articles = {
+const articles: Record<string, Article> = {
   'xv-legio': {
     title: 'XV Legio Apollinaris',
     subtitle: 'The Legion of Apollo',
@@ -124,7 +125,7 @@ export function generateStaticParams() {
 }
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
-  const article = articles[params.slug as keyof typeof articles];
+  const article = articles[params.slug];
 
   if (!article) {
     return <div>Article not found</div>;
