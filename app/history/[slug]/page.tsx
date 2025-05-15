@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import ClientArticlePage from './client-page';
-import { Article } from './client-page';
+import type { Article } from './client-page';
 
 // Historical articles data
 const articles: Record<string, Article> = {

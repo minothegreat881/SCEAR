@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, MapPin, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-interface ArticleContent {
+export interface ArticleContent {
   type: 'text' | 'image' | 'quote';
   content: string;
   url?: string;
@@ -14,7 +14,7 @@ interface ArticleContent {
   author?: string;
 }
 
-interface Article {
+export interface Article {
   title: string;
   subtitle: string;
   coverImage: string;
